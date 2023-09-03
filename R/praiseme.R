@@ -14,3 +14,4 @@
 praise <- function(name, punctuation = "!"){
   glue::glue("You're the best, {name}{punctuation}")
 }
+usethis::git_sitrep()
